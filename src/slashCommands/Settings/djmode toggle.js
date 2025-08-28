@@ -10,7 +10,7 @@ module.exports = {
         {
             name: 'toggledj',
             description: 'Enable Disable Dj Roles.',
-            type: 'STRING',
+            type: ApplicationCommandOptionType.String,
             required: true,
             choices: [
                 {

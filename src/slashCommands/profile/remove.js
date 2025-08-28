@@ -14,7 +14,7 @@ module.exports = {
       name: 'number',
       description: 'Song Number',
       required: true,
-      type: 'STRING',
+      type: ApplicationCommandOptionType.String,
     }
   ],
   /**

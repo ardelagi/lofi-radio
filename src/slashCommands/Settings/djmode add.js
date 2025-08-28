@@ -11,7 +11,7 @@ module.exports = {
             name: "role",
             description: "Mention a Role.",
             required: true,
-            type: "ROLE"
+            type: ApplicationCommandOptionType.Role
         }
     ],
     /**

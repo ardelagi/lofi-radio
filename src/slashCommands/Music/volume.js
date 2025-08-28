@@ -1,4 +1,4 @@
-const { CommandInteraction, Client, MessageEmbed } = require('discord.js');
+const { Client, CommandInteraction, MessageEmbed, ApplicationCommandOptionType } = require('discord.js');
 
 module.exports = {
   name: 'volume',
@@ -14,7 +14,7 @@ module.exports = {
       name: 'amount',
       description: 'new volume value to set',
       required: true,
-      type: 'NUMBER',
+      type: ApplicationCommandOptionType.Number,
     },
   ],
 
