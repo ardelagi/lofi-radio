@@ -1,4 +1,4 @@
-const { CommandInteraction, Client, MessageEmbed } = require("discord.js");
+const { CommandInteraction, Client, MessageEmbed, ApplicationCommandOptionType } = require("discord.js");
 const db1 = require("../../schema/station.js");
 const db2 = require('../../schema/mode.js');
 module.exports = {
