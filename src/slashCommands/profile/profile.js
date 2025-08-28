@@ -1,4 +1,4 @@
-const { CommandInteraction, Client, MessageEmbed, MessageAttachment } = require("discord.js");
+const { CommandInteraction, Client, MessageEmbed, MessageAttachment, ApplicationCommandOptionType } = require("discord.js");
 const db = require("../../schema/prefix.js");
 const { Canvas, resolveImage } = require('canvas-constructor');
 const canvas = require('canvas');
