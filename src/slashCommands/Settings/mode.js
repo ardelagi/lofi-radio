@@ -1,4 +1,12 @@
-const { MessageEmbed, MessageActionRow, MessageButton, MessageSelectMenu, CommandInteraction, Client } = require('discord.js');
+const { 
+  MessageEmbed, 
+  MessageActionRow, 
+  MessageButton, 
+  MessageSelectMenu, 
+  CommandInteraction, 
+  Client,
+  ApplicationCommandOptionType
+} = require('discord.js');
 const db = require("../../schema/autoReconnect");
 const db1 = require('../../schema/station.js');
 const db2 = require('../../schema/mode.js');
