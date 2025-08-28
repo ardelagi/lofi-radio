@@ -1,4 +1,4 @@
-const { MessageEmbed, CommandInteraction, Client, MessageActionRow, MessageButton } = require("discord.js");
+const { MessageEmbed, CommandInteraction, Client, MessageActionRow, MessageButton, ApplicationCommandOptionType } = require("discord.js");
 const db = require("../../schema/playlist");
 
 module.exports = {
